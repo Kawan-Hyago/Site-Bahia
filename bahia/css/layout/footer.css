@@ -1,0 +1,40 @@
+footer {
+    background-color:  rgb(195, 132, 255);
+    text-align: center;
+    padding : 2em;
+}
+.footer{
+    display: flex;
+    text-align: left;
+    padding-bottom: 2em;
+}
+.footer h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+.fontes{
+    overflow: auto;
+    width: 50%;
+    padding-right: 1em;
+    border-right: 1px solid rgba(72, 72, 72, 0.445);
+}
+.fontes p{
+    display: block;
+}
+.agradecimentos{
+    width: 50%;
+    padding-left: 1em;
+}
+footer button{
+    padding: .3em;
+    border: 1px solid  rgb(115, 183, 225);
+    background-color: rgb(132, 177, 255);
+    border-radius: 20px;
+}
+#azul{
+    background-color: lightblue;
+}
+#azul button{
+    border: 1px solid  rgb(195, 132, 255);
+    background-color: rgb(188, 116, 255);
+}

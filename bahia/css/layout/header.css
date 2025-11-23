@@ -1,0 +1,113 @@
+header{
+    padding: 2em;
+    background-color: lightblue;
+}
+#bah{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+#tche{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding-right: 2em;
+    top:0px;
+    padding-top: 13em;
+}
+#Hlocal{
+    text-align: center;
+}
+#Hcultura{
+    text-align: center;
+}
+@media (max-width:1114px){
+    #Hcultura h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:939px){
+    #Hcultura h1{
+        font-size: 4em;
+    }
+}
+@media (max-width:764px){
+    #Hcultura h1{
+        font-size: 3em;
+    }
+}
+@media (max-width:890px) {
+    #Hlocal h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:752px) {
+    #Hlocal h1{
+        font-size: 4em;
+    }
+}
+#Hcomida{
+    text-align: center;
+}
+@media (max-width:976px){
+    #Hcomida h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:824px){
+    #Hcomida h1{
+        font-size: 4em;
+    }
+}
+#Hpaisagens{
+    text-align: center;
+}
+@media (max-width:805px){
+    #Hpaisagens h1{
+        font-size: 5em;
+    }
+}
+#Hatividades{
+    text-align: center;
+}
+@media (max-width:1147px){
+    #Hatividades h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:966px){
+    #Hatividades h1{
+        font-size: 4em;
+    }
+}
+@media (max-width:786px){
+    #Hatividades h1{
+        font-size: 3em;
+    }
+}
+#Hpers{
+    text-align: center;
+}
+@media (max-width:1426px){
+    #Hpers h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:1199px){
+    #Hpers h1{
+        font-size: 4em;
+    }
+}
+@media (max-width:972px){
+    #Hpers h1{
+        font-size: 3em;
+    }
+}
+@media (max-width:745px){
+    #Hpers h1{
+        font-size: 2em;
+    }
+}
