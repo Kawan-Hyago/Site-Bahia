@@ -195,8 +195,6 @@ main h2 {
 }
 .Ctext{
     width: 70%;
-}
-.Culttext p{
     padding-bottom: 0;
 }
 .Pimg{
@@ -205,6 +203,9 @@ main h2 {
 .Ppai{
     justify-content: space-between;
     border: 0;
+}
+.Hpai{
+    border: 0px;
 }
 }
 .text h3{
