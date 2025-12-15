@@ -1,28 +1,101 @@
 
 a {
     text-decoration: none;
+    font-weight: bold;
     color: black;
 }
-@media (min-width:720px) {
+@media (max-width:414px) {
+header br {
+    display: none;
+}
+nav p{
+    font-size: 1.2em;
+    margin: .15em;
+}
+nav{
+    background-color: rgb(195, 132, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .85em;
+}
+header{
+    text-align: center;
+}
+#bah, #tche {
+    margin-top: 1em;
+}
+.figuras {
+    position:absolute;
+    display: none;
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-width: 100%;
+}
+.img{
+    flex: 1;
+}
+.text{
+    flex: 2;
+}
+.text p{
+    padding: 0;
+}
+.text h3{
+    padding-top: .8em;
+}
+.img img{
+    width: 100%;
+    display: block;
+}
+#Mpaisagens .pai, #Mcultura .pai, #Mcomida .pai, #Mpers .pai, #Mhistoria .pai, #Matividades .pai{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.Ppai {
+    border: 0;
+}
+.Pimg img{
+    margin-top: .5em;
+}
+#Mpaisagens h3{
+    font-weight: bold;
+}
+}
+@media (min-width:668px) {
 nav {
     background-color: rgb(195, 132, 255);
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     padding: 2em;
 }
-}
 nav p{
-    font-size: .9em;
+    font-size: .81em;
 }
-
+}
+@media (min-width:668px) {
+nav p{
+    font-size: .77em;
+}
+}
+@media (min-width:720px) {
+nav p{
+    font-size: .87em;
+}
+}
 @media (min-width:800px) {
 nav p{
-    font-size: 1.07em;
+    font-size: 0.97em;
 }
 }
 @media (min-width:880px) {
 nav p{
-    font-size: 1.13em;
+    font-size: 1.07em;
 }
 #Mlocal p{
     font-size: 1.1em;
@@ -30,7 +103,7 @@ nav p{
 }
 @media (min-width:980px) {
 nav p{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 #Mlocal p{
     font-size: 1.2em;
@@ -38,7 +111,7 @@ nav p{
 }
 @media (min-width:1081px) {
 nav p{
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 #Mlocal p{
     font-size: 1.3em;
@@ -46,7 +119,7 @@ nav p{
 }
 @media (min-width:1181px) {
 nav p{
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 #Mlocal p{
     font-size: 1.4em;
@@ -54,7 +127,7 @@ nav p{
 }
 @media (min-width:1281px) {
 nav p{
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 #Mlocal p{
     font-size: 1.5em;
@@ -62,7 +135,7 @@ nav p{
 }
 @media (min-width:1381px) {
 nav p{
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 #Mlocal p{
     font-size: 1.6em;
@@ -70,7 +143,7 @@ nav p{
 }
 @media (min-width:1481px) {
 nav p{
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 #Mlocal p{
     font-size: 1.7em;
@@ -78,7 +151,7 @@ nav p{
 }
 @media (min-width:1581px) {
 nav p{
-    font-size: 1.9em;
+    font-size: 1.8em;
 }
 #Mlocal p{
     font-size: 1.8em;
@@ -92,6 +165,7 @@ main {
 main h2 {
     font-size: 3em;
 }
+@media (min-width:700px) {
 .pai {
     display: flex;
     width: 100%;
@@ -106,6 +180,7 @@ main h2 {
 }
 .img img{
     width: 100%;
+    height: auto;
     display: block;
 }
 .text{
@@ -114,6 +189,23 @@ main h2 {
     justify-content: center;
     flex-direction: column;
     border: 0px;
+}
+.Cimg{
+    width: 30%;
+}
+.Ctext{
+    width: 70%;
+}
+.Culttext p{
+    padding-bottom: 0;
+}
+.Pimg{
+    width: 30%;
+}
+.Ppai{
+    justify-content: space-between;
+    border: 0;
+}
 }
 .text h3{
     font-size: 1.8em;
@@ -130,6 +222,17 @@ main h2 {
     padding-bottom: 1em;
     padding-top: 1em;
 }
+@media (min-width:668px) {
+.text p{
+    font-size: 1.1em;
+}
+.text h3{
+    font-size: 1.7em;
+}
+.text button{
+    font-size: 1.1em;
+}
+}
 @media (min-width:736px) {
 .text p{
     font-size: 1.2em;
@@ -141,7 +244,7 @@ main h2 {
     font-size: 1.2em;
 }
 }
-@media (min-width:940px) {
+@media (min-width:941px) {
 .text p{
     font-size: 1.6em;
 }
@@ -163,7 +266,7 @@ main h2 {
     font-size: 1.6em;
 }
 }
-@media (min-width:1131px) {
+@media (min-width:1160px) {
 .text p{
     font-size: 2em;
 }
@@ -196,11 +299,51 @@ main h2 {
     font-size: 2.2em;
 }
 }
+@media (min-width:1592px) {
+.text p{
+    font-size: 2.6em;
+}
+.text h3{
+    font-size: 3em;
+}
+.text button{
+    font-size: 2.4em;
+}
+}
+@media (min-width:1719px) {
+.text p{
+    font-size: 2.8em;
+}
+.text h3{
+    font-size: 3.2em;
+}
+.text button{
+    font-size: 2.6em;
+}
+#Mlocal p{
+    font-size: 2em;
+}
+}
+@media (min-width:1846px) {
+.text p{
+    font-size: 3em;
+}
+.text h3{
+    font-size: 3.4em;
+}
+.text button{
+    font-size: 2.8em;
+}
+#Mlocal p{
+    font-size: 2.2em;
+}
+}
 #Mlocal p{
     padding-top:1em;
     padding-bottom: 1em;;
 }
-.ltext{
+@media (min-width:700px){
+    .ltext{
     width: 75%;
 }
 .figuras{
@@ -214,38 +357,15 @@ main h2 {
     display: flex;
     gap: 2em;
 }
-@media (max-width:820px) {
+}
+@media (max-width:880px) {
     .figuras{
         gap:6em;
     }
-}
-.Cpai {
-    display: flex;
-    width: 100%;
-    border-width: 100%;
-    margin: 0%;
-    padding: 0%;
-    border: 0;
-}
-.Cimg{
-    width: 30%;
-}
-.Ctext{
-    width: 70%;
-}
-.Culttext p{
-    padding-bottom: 0;
 }
 .roxo{
     background-color: rgb(195, 132, 255);
     margin-left: -2em;
     margin-right: -2em;
     padding: 2em;
-}
-.Pimg{
-    width: 30%;
-}
-.Ppai{
-    justify-content: space-between;
-    border: 0;
 }

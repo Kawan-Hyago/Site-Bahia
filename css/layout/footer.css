@@ -33,6 +33,7 @@ footer button{
 }
 #azul{
     background-color: lightblue;
+    overflow: auto;
 }
 #azul button{
     border: 1px solid  rgb(195, 132, 255);
