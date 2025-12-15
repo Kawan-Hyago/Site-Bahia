@@ -263,6 +263,9 @@ main h2 {
 }
 }
 @media (min-width:1067px) {
+main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.15em;
+}
 .text p{
     font-size: 1.8em;
 }
@@ -274,6 +277,12 @@ main h2 {
 }
 }
 @media (min-width:1160px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.3em;
+}
+footer button {
+    font-size: 1em;
+}
 .text p{
     font-size: 2em;
 }
@@ -285,6 +294,9 @@ main h2 {
 }
 }
 @media (min-width:1319px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.45em;
+}
 .text p{
     font-size: 2.2em;
 }
@@ -296,6 +308,9 @@ main h2 {
 }
 }
 @media (min-width:1444px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.6em;
+}
 .text p{
     font-size: 2.4em;
 }
@@ -307,6 +322,9 @@ main h2 {
 }
 }
 @media (min-width:1592px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.75em;
+}
 .text p{
     font-size: 2.6em;
 }
@@ -318,6 +336,9 @@ main h2 {
 }
 }
 @media (min-width:1719px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 1.9em;
+}
 .text p{
     font-size: 2.8em;
 }
@@ -332,6 +353,9 @@ main h2 {
 }
 }
 @media (min-width:1846px) {
+    main p, #Mpaisagens h3, footer, header p{
+    font-size: 2.05em;
+}
 .text p{
     font-size: 3em;
 }

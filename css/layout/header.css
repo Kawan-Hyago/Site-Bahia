@@ -22,6 +22,9 @@ header{
 #Main p, #Main h1{
     text-align: left;
 }
+#Main p{
+    font-size: 1.3em;
+}
 }
 #Hlocal{
     text-align: center;
