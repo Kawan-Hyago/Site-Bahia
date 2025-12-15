@@ -207,6 +207,12 @@ main h2 {
 .roxo .pai{
     border: 0;
 }
+.roxo .text{
+    flex:2;
+}
+.roxo .img{
+    flex:1;
+}
 }
 .text h3{
     font-size: 1.8em;
